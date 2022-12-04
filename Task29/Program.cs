@@ -10,7 +10,7 @@ for (int i = 0; i < array.Length; i++)
 {
     array [i] = new Random().Next(0, 100);
     Console.Write ($" {array[i]}");
-    for (int j = 1; j <= array.Length-7; j++)
+    if (i < array.Length-1)
 { 
     Console.Write (",");
 }
